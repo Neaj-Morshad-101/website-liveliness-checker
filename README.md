@@ -34,9 +34,12 @@ http://nonexistent-site.xyz
 `./website-liveliness-checker`
 
 The program will check each website and print a summary:
-```Total websites checked: 3
+```
+2025/03/13 16:51:12 Error checking http://nonexistent-site.xyz: Get "http://nonexistent-site.xyz": dial tcp: lookup nonexistent-site.xyz on 127.0.0.53:53: no such host
+Total websites checked: 3
 Websites Up: 2
 Websites Down: 1
+
 ```
 
 Errors are logged to the console with timestamps, for example:
